@@ -345,8 +345,8 @@ $ sed 's/?/-/g' maize_transposed_genotypes_joined_chr9.bed | sort -k4,4nr > /hom
 ```
 $ sed 's/?/-/g' maize_transposed_genotypes_joined_chr10.bed | sort -k4,4nr > /home/yaweil/yawei-UNIX-Assignment/Data-Processing/maize_chr10_ordered_decreased.bed
 ```
-I joined (hint, hint) these data sets and put both genotypes and positions in a series of input files. 
-For maize (Group = ZMMIL, ZMMLR, and ZMMMR in the third column of the fang_et_al_genotypes.txt file) we want 20 files in total:
+I joined these data sets and put both genotypes and positions in a series of input files. 
+For maize (Group = ZMMIL, ZMMLR, and ZMMMR in the third column of the fang_et_al_genotypes.txt file) there are 20 files in total:
 
 10 files (1 for each chromosome) with SNPs ordered based on increasing position values and with missing data encoded by this symbol: ?
 
@@ -356,7 +356,7 @@ For maize (Group = ZMMIL, ZMMLR, and ZMMMR in the third column of the fang_et_al
 
 1 file with all SNPs with multiple positions in the genome (these need not be ordered in any particular way)
 
-For teosinte (Group = ZMPBA, ZMPIL, and ZMPJA in the third column of the fang_et_al_genotypes.txt file) we want 20 files in total:
+For teosinte (Group = ZMPBA, ZMPIL, and ZMPJA in the third column of the fang_et_al_genotypes.txt file) there are 20 files in total:
 
 10 files (1 for each chromosome) with SNPs ordered based on increasing position values and with missing data encoded by this symbol: ?
 
