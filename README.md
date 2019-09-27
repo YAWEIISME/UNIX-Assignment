@@ -1,5 +1,4 @@
 # UNIX-Assignment
-##Yawei Li
 This is yawei's unix assignment. In this assignment, there are two data files for me to inspect and analysis. My UNIX assignment consists two components: The inspection of data The processing of these same data files to produce output files that are formatted for a subsequent analysis. The workflow and the codes for both data inspection and processing are as following:
 ### Data inspection
 ```
