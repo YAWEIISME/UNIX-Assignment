@@ -12,7 +12,7 @@ $wc fang_et_al_genotypes.txt
 The number of lines, words, and bytes (characters) in  fang_et_al_genotypes.txt are 2783  2744038 11051939 
 
 ```
-wc snp_position.txt
+$wc snp_position.txt
 ```
 The number of lines, words, and bytes (characters) in snp_position.txt are 984 13198 82763 
 
